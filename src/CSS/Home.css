@@ -1,0 +1,55 @@
+.container {
+    background-color: white;
+    height: 50px;
+    display: grid;
+    padding: 10px;
+    width: 98.5vw;
+    color: black;
+}
+
+.btn {
+    align-self: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    background-color: #dddddd;
+    color: black;
+}
+
+.Outer {
+    width: 100%;
+    max-width: 300px; /* Set a maximum width for responsiveness */
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    z-index: 1;
+}
+
+.Inner {
+    display: flex;
+    flex-direction: row; /* Adjusted flex direction for responsiveness */
+    justify-content: space-around; /* Added gap for spacing between elements */
+}
+
+select {
+    height: 40px;
+    border-radius: 7px;
+    background-color: #dddddd;
+    color: black;
+    width: 40%;
+}
+
+.cancel {
+    justify-self: end;
+    cursor: pointer;
+}
+
+.setting,
+.para {
+    place-self: center;
+}
