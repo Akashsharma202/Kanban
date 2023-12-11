@@ -21,7 +21,7 @@
 
 .Outer {
     width: 100%;
-    max-width: 300px; /* Set a maximum width for responsiveness */
+    max-width: 300px; 
     height: auto;
     background-color: white;
     padding: 10px;
@@ -32,8 +32,8 @@
 
 .Inner {
     display: flex;
-    flex-direction: row; /* Adjusted flex direction for responsiveness */
-    justify-content: space-around; /* Added gap for spacing between elements */
+    flex-direction: row; 
+    justify-content: space-around; 
 }
 
 select {
