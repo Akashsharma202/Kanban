@@ -19,9 +19,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%; /* Adjusted width for responsiveness */
-    max-width: 250px; /* Added max-width for each category */
-    margin-bottom: 20px; /* Added margin for spacing between categories */
+    width: 100%; 
+    max-width: 250px; 
+    margin-bottom: 20px; 
 }
 
 .card {
@@ -91,7 +91,6 @@ h5 {
     color: #fff;
 }
 
-/* Additional styles for smaller screens */
 @media (max-width: 768px) {
     .outer {
         min-width: 100%;
